@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=inter:wght@400;700;800&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+}
+html {
+    font-size: 15px; 
+} 
+body{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20pxs;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.nav ul li{
+    width: 5rem;
+}
+.name {
+    padding: 0;
+    /* padding-top: 2.5rem; */
+    display: flex;
+    gap: 3rem;
+    place-items: centre;
+
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: hsl(240, 100, 5%);
+    margin: 1rem 0;  
+}
+.div2 {
+    border: 1px solid red;
+    padding: 25px;
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 50px;
+    /* margin: 15px; */
+}
+h2 {
+    color: hsl(35, 77%, 62%);
+}
+h3{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.div3{
+    display: flex;
+}
+button {
+    padding: 10px;
+    width: 10rem;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.div4{
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    
+}
+.div4 img{
+    width: 7rem;
+    padding-top: 2rem;
+}
+.div4 div{
+    display: flex;
+    flex-direction: column;
+}
+.div4 article {
+    display: flex;
+    gap: 1.25rem;
+    padding-top: 2rem;
+}
+.div4 article span {
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 75%;
+    margin-top: 1.5rem;
+}
+.div4 article img{
+    width: 170px;
+}
+.div4 article h4 {
+    font-size: 1.25rem;
+    color: hsl(240, 100, 5%);
+    margin: 1rem 0;
+}
+.attribution{
+    font-size: 11pxc;
+    text-align: center;
+    margin-top: 2rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);   
+}
+
+
+
+
